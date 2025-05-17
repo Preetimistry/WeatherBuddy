@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+<div class="search">
+<input type="text" placeholder="Enter city name" spellcheck="false">
+
+<button><img src="images/search.png" alt="Search"></button>
+<button id="voice-btn"><img src="C:\Users\acer\Downloads\download-google-voice-assistant-ico-115642425350uihpat79v.png" alt="voice"></button>
+<button id="theme-toggle">🌙 Dark Mode</button>
+</div>
+ <div class="error">
+   <p> Invalid City Name </p>
+ </div> 
+<div class="weather">
+  <div class="weather-text">
+  <h1 class="city">New york</h1>
+  <h2 class="temp">22°c</h2>
+  <h3>Search History</h3>
+  <div id="history"></div>
+<img class="weather-icon" src="images/rain.png" alt="Weather Icon" />
+<div class="details">
+<div class="col">
+<img src="images/humidity.png">
+<div>
+<p class="humidity">50%</p>
+  <p>humadity</p>
+</div>
+</div>
+     <div class="col">
+             <img src="images/wind.png">
+        <div>
+           <p class="wind">15 km/h</p>
+           <p>wind speed</p>
+
+        </div>
+</div>
+  </div>
+  <div class="clothing-suggestion">
+               <p class="suggestion"></p>
+
+    </div>
+        <div class="plant-tips">
+        <p class="plant-care"></p>
+       </div>
+    <div class="forecast">
+  <h2>5-Day Forecast</h2>
+  <div class="forecast-container"></div>
+</div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
